@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+
+<!--TODO Input kasse Get-->
+<!--TODO Tabelle quittung thymeleaf-->
+
 <html lang="en" dir="ltr" xmlns:th="http://www.thymeleaf.org">
   <head>
     <meta charset="utf-8">
@@ -24,16 +28,42 @@
     </div>
 
     <div class="split _right">
+
       <div class="Kasse">
         <h3>Kasse</h3>
+        <form class="items_eingeben" method="GET">
+          <input type="text" value="Hello">
+          <input type="submit" value="scannen">
+        </form>
       </div>
-      <div class="Quittung">
-        <select class="options" name = "Options">
-          <option value="Drucken">Drucken</option>
-          <option value="Kontakt">Kontakt</option>
-        </select>
+
+      <div class="centered Quittung">
+        <h3>Quittung</h3>
+        <table border="1" cellpadding="5" cellspacing="5">
+          <tr>
+            <th>Produktname</th>
+            <th>ProduktID</th>
+            <th>Preis</th>
+          </tr>
+          <tr>
+            <td>Cola</td>
+            <td>345</td>
+            <td>0,85€</td>
+          </tr>
+          <tr>
+            <td>Milch</td>
+            <td>271</td>
+            <td>0,69€</td>
+          </tr>
+        </table>
       </div>
+
     </div>
 
   </body>
+  <!--   <select class="options" name = "Options">
+      <option value="Drucken">Drucken</option>
+      <option value="Kontakt">Kontakt</option>
+    </select>
+  -->
 </html>

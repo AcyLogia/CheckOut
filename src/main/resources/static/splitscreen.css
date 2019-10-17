@@ -1,3 +1,7 @@
+h2,
+h3{
+  text-align: center;
+}
 .split {
   height: 100%;
   width: 50%;
@@ -10,12 +14,14 @@
 
 /* Control the left side */
 ._left {
+  text-align: center;
   left: 0;
-  
+
 }
 
 /* Control the right side */
 ._right {
+  text-align: center;
   right: 0;
 
 }
