@@ -9,8 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>CheckOutFormat</title>
     <link rel="stylesheet" href="/css/master.css">
-    <link rel="stylesheet" href="../static/bootstrap.min.css">
-    <link rel="stylesheet" href="../static/splitscreen.css">
+    <link rel="stylesheet" href="../static/bootstrap.min.css"
+     th:href="bootstrap.min.css">
+    <link rel="stylesheet" href="../static/splitscreen.css"
+     th:href="splitscreen.css">
   </head>
 
   <body>
@@ -31,9 +33,22 @@
 
       <div class="Kasse">
         <h3>Kasse</h3>
-        <form class="items_eingeben" method="GET">
-          <input type="text" value="Hello">
-          <input type="submit" value="scannen">
+        <form class="items_eingeben" method="post">
+          <div class="produktname_eingeben">
+            <label>Produktname</label>
+            <input type="text" value="Cola">
+          </div>
+          <div class="produktID_eingeben">
+            <label>ProduktID</label>
+            <input type="text" value="345">
+          </div>
+          <div class="preis_eingeben">
+            <label>Preis</label>
+            <input type="text" value="0,85€">
+          </div>
+          <div class="button">
+            <input type="submit" value="scannen">
+          </div>
         </form>
       </div>
 
