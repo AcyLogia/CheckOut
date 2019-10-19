@@ -33,18 +33,18 @@
 
       <div class="Kasse">
         <h3>Kasse</h3>
-        <form class="items_eingeben" method="post" th:object=${product}>
+        <form class="items_eingeben" method="post">
           <div class="produktname_eingeben">
             <label>Produktname</label>
-            <input type="text" value="Cola" th:field=*{produktName}>
+            <input type="text" value="Cola">
           </div>
           <div class="produktID_eingeben">
             <label>ProduktID</label>
-            <input type="text" value="345" th:field=*{produktID}>
+            <input type="text" value="345">
           </div>
           <div class="preis_eingeben">
             <label>Preis</label>
-            <input type="text" value="0,85€" th:field=*{produktPreis}>
+            <input type="text" value="0,85€">
           </div>
           <div class="button">
             <input type="submit" value="scannen">

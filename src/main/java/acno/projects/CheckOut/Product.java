@@ -6,7 +6,7 @@ import lombok.Data;
 public class Product {
     private String produktName = "ButterMilch";
     private int produktID = 128;
-    private double preis = 0.59;
+    private double produktPreis = 0.59;
 
 
 

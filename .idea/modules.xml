@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CheckOut.iml" filepath="$PROJECT_DIR$/CheckOut.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CheckOut.main.iml" filepath="$PROJECT_DIR$/.idea/modules/CheckOut.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CheckOut.test.iml" filepath="$PROJECT_DIR$/.idea/modules/CheckOut.test.iml" />
+    </modules>
+  </component>
+</project>
